@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Assignment 5</title>
+    <link rel="stylesheet" href="./styles/style.css" />
+    <link rel="stylesheet" href="styles/alert.css" />
+  </head>
+  <body>
+    <header id="sticky-header">
+      <nav>
+        <a class="my-btn" href="./blog.html">Blog</a>
+        <div class="mid-nav">
+          <img src="./assets/logo.png" alt="" />
+          <p>Donate Bangladesh</p>
+        </div>
+        <div class="right-nav">
+          <img src="./assets/coin.png" alt="" />
+          <p id="total-coin">5600</p>
+          <p>BDT</p>
+        </div>
+      </nav>
+      <div class="btns">
+        <button class="toggle-btn active" id="Donation-btn">Donation</button>
+        <button class="toggle-btn" id="History-btn">History</button>
+      </div>
+    </header>
+    <main>
+      
+      <div class="donation-container">
+        <div class="donation-box">
+          <img class="left-image" src="./assets/noakhali.png" alt="" />
+          <div class="donation-text">
+            <div class="coin-box">
+              <img src="./assets/coin.png" alt="" />
+              <p id="Noakhali-coin">00</p>
+              <p>BDT</p>
+            </div>
+            <h3>Donate for Flood at Noakhali, Bangladesh</h3>
+            <p class="description-text">
+              The recent floods in Noakhali have caused significant damage to
+              homes infrastructure. Your donation will help provide essential
+              supplies and to those affected by this disaster. Every
+              contribution, big or small, makes difference. Please join us in
+              supporting the relief efforts and making a positive impact on the
+              lives of those in need.
+            </p>
+            <input
+              type="text"
+              class="input-amount"
+              id="noakhali-input"
+              placeholder="Write Donation Amount"
+            />
+            <button class="my-btn donate-now" id="noakhali-donate">
+              Donate Now
+            </button>
+          </div>
+        </div>
+        <div class="donation-box">
+          <img class="left-image" src="./assets/feni.png" alt="" />
+          <div class="donation-text">
+            <div class="coin-box">
+              <img src="./assets/coin.png" alt="" />
+              <p id="Feni-coin">600</p>
+              <p>BDT</p>
+            </div>
+            <h3>Donate for Flood Relief in Feni,Bangladesh</h3>
+            <p class="description-text">
+              The recent floods in Feni have devastated local communities,
+              leading to severe disruption and loss. Your generous donation will
+              help provide immediate aid, including food, clean water, and
+              medical supplies, to those affected by this calamity. Together, we
+              can offer crucial support and help rebuild lives in the aftermath
+              of this disaster. Every contribution counts towards making a real
+              difference. Please consider donating today to assist those in
+              urgent need.
+            </p>
+            <input
+              type="text"
+              class="input-amount"
+              id="feni-input"
+              placeholder="Write Donation Amount"
+            />
+            <button id="feni-donate" class="my-btn donate-now">
+              Donate Now
+            </button>
+          </div>
+        </div>
+        <div class="donation-box">
+          <img class="left-image" src="./assets/quota-protest.png" alt="" />
+          <div class="donation-text">
+            <div class="coin-box">
+              <img src="./assets/coin.png" alt="" />
+              <p id="Quota-coin">1200</p>
+              <p>BDT</p>
+            </div>
+            <h3>Aid for Injured in the Quota Movement</h3>
+            <p class="description-text">
+              The recent Quota movement has resulted in numerous injuries and
+              significant hardship for many individuals. Your support is crucial
+              in providing medical assistance, rehabilitation, and necessary
+              supplies to those affected. By contributing, you help ensure that
+              injured individuals receive the care and support they need during
+              this challenging time. Every donation plays a vital role in
+              alleviating their suffering and aiding in their recovery. Please
+              consider making a donation to support these brave individuals in
+              their time of need.
+            </p>
+            <input
+              type="text"
+              class="input-amount"
+              id="Quota-input"
+              placeholder="Write Donation Amount"
+            />
+            <button id="Quota-donate" class="my-btn donate-now">
+              Donate Now
+            </button>
+          </div>
+        </div>
+      </div>
+      <section class="history-container display">
+        <div class="history-box">
+          <h4>600 Taka is Donated for famine-2024 at Feni, Bangladesh</h4>
+          <p>
+            Date : Tue Sep 17 2024 08:39:11 GMT +0600 (Bangladesh Standard Time)
+          </p>
+        </div>
+        <div class="history-box">
+          <h4>
+            1200 Taka is Donated for Injured in the Quota Movement,
+            Bangladesh<Bangladesh></Bangladesh>
+          </h4>
+          <p>
+            Date : Tue Sep 17 2024 08:39:11 GMT +0600 (Bangladesh Standard Time)
+          </p>
+        </div>
+      </section>
+      <section id="alert-container">
+        <div id="alert">
+          <h2 id="alert-header">Wellcome!</h2>
+          <img src="./assets/coin.png" alt="" />
+          <p id="alert-description">You Have Donated for Humankind</p>
+          <h3 id="alert-status">Succesfully</h3>
+          <button id="alert-btn">close confirmation</button>
+        </div>
+      </section>
+    </main>
+    <footer></footer>
+
+    <script src="./scripts/script.js"></script>
+    <script src="./scripts/history.js"></script>
+    <script src="./scripts/money.js"></script>
+    <script src="./scripts/alert.js"></script>
+    <script src="./scripts/sticky.js"></script>
+  </body>
+</html>

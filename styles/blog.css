@@ -1,0 +1,73 @@
+@import url("https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&display=swap");
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.lexend-font {
+  font-family: "Lexend", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+}
+
+* {
+  font-family: "Lexend", sans-serif;
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+header {
+  position: sticky;
+  top: 0;
+}
+
+header.scrolled {
+  backdrop-filter: blur(20px);
+  background: rgba(180, 165, 165, 0.5);
+}
+
+nav {
+  background: rgb(249, 247, 243);
+  padding: 24px 50px;
+  display: flex;
+  justify-content: space-between;
+  font-weight: bold;
+}
+
+nav .mid-navs,
+nav .right-navs {
+  display: flex;
+  text-align: center;
+  align-items: center;
+  gap: 10px;
+  font-size: large;
+}
+
+nav .mid-navs img {
+  width: 36px;
+}
+nav p{
+  padding-top: 10px;
+}
+
+.my-btn {
+  padding: 12px 32px;
+  border-radius: 8px;
+  background: rgb(180, 244, 97);
+  cursor: pointer;
+  font-size: 20px;
+  border: white;
+  text-decoration: none;
+  color: black;
+}
+
+main div h1{
+  padding-left: 50px;
+  padding-top: 50px;
+}
+
+.query-container{
+  margin: 50px;
+}

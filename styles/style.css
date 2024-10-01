@@ -1,0 +1,176 @@
+@import url("https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&display=swap");
+
+.lexend-font {
+  font-family: "Lexend", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+}
+
+* {
+  font-family: "Lexend", sans-serif;
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+header {
+  position: sticky;
+  top: 0;
+  width: 100vw;
+  height: fit-content;
+}
+
+header.scrolled {
+  backdrop-filter: blur(20px);
+  background: rgba(180, 165, 165, 0.5);
+}
+
+nav {
+  background: rgb(249, 247, 243);
+  padding: 24px 50px;
+  display: flex;
+  justify-content: space-between;
+  font-weight: bold;
+}
+
+nav .mid-nav,
+nav .right-nav {
+  display: flex;
+  text-align: center;
+  align-items: center;
+  gap: 10px;
+  font-size: large;
+}
+
+nav .mid-nav img {
+  width: 36px;
+}
+
+.my-btn {
+  padding: 12px 32px;
+  border-radius: 8px;
+  background: rgb(180, 244, 97);
+  cursor: pointer;
+  font-size: 20px;
+  border: white;
+}
+
+.btns {
+  display: flex;
+  gap: 20px;
+  font-weight: bold;
+  padding: 30px 0px;
+  justify-content: center;
+  align-items: center;
+}
+
+main {
+  width: 80vw;
+  margin-top: 20px;
+  margin-left: 10%;
+}
+
+.donation-container {
+  margin: 80px 0;
+  border-radius: 10px;
+}
+
+.donation-box,
+.history-box {
+  padding: 15px;
+  margin: 20px 0px;
+  border-radius: 10px;
+  border: 1px solid rgba(17, 17, 17, 0.1);
+  display: flex;
+
+  gap: 30px;
+}
+
+.donation-text {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.coin-box {
+  margin-top: 10px;
+  display: flex;
+  gap: 6px;
+  border-radius: 8px;
+  width: fit-content;
+  padding: 10px;
+  align-items: center;
+  background: rgba(17, 17, 17, 0.05);
+}
+
+.donation-box .description-text {
+  font-weight: 300;
+  font-size: 16px;
+}
+
+.input-amount {
+  padding: 18px;
+  border: 1px solid rgba(173, 42, 42, 0.1);
+  border-radius: 8px;
+  background: rgb(255, 255, 255);
+  outline: rgba(150, 0, 0, 0.1);
+}
+.input-amount:active,
+.input-amount:focus {
+  border: 2px solid rgb(94, 47, 42);
+}
+
+.history-container {
+  margin: 80px 0;
+  border-radius: 10px;
+}
+
+.history-box {
+  flex-direction: column;
+  gap: 10px;
+  font-size: 16px;
+  font-weight: 300;
+  padding: 32px;
+}
+
+#Donation-btn,
+#History-btn {
+  padding: 12px 32px;
+  border-radius: 8px;
+  background: rgb(180, 244, 97);
+  cursor: pointer;
+  font-size: 20px;
+  border: white;
+  background-color: white;
+  color: rgba(34, 21, 21, 0.7);
+  border: 1px solid rgba(17, 17, 17, 0.3);
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+#Donation-btn.active,
+#History-btn.active {
+  background: rgb(180, 244, 97);
+  color: black;
+  cursor: pointer;
+  font-size: 20px;
+  border: white;
+  transition: background-color 0.3s ease;
+}
+
+.display {
+  display: none;
+}
+
+footer {
+  height: 100px;
+  width: 100%;
+  background: rgb(249, 247, 243);
+  position: absolute;
+  margin-top: auto;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
