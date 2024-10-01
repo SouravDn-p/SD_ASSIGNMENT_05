@@ -69,7 +69,10 @@ main {
   margin-top: 20px;
   margin-left: 10%;
 }
-
+main img{
+  border-radius: 5px;
+  object-fit: cover;
+}
 .donation-container {
   margin: 80px 0;
   border-radius: 10px;
@@ -173,4 +176,21 @@ footer {
 a {
   text-decoration: none;
   color: black;
+}
+
+@media (max-width: 768px) {
+  .mid-nav p {
+    display: none;
+  }
+
+  .donation-box {
+    flex-direction: column;
+  }
+}
+@media (min-width: 769px) and (max-width: 950px) {
+  .donation-box img{
+    width: 60%;
+    object-fit: cover;
+    border-radius: 5px;
+  }
 }

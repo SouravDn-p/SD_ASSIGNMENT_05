@@ -48,7 +48,7 @@ nav .right-navs {
 nav .mid-navs img {
   width: 36px;
 }
-nav p{
+nav p {
   padding-top: 10px;
 }
 
@@ -63,11 +63,27 @@ nav p{
   color: black;
 }
 
-main div h1{
+main div h1 {
   padding-left: 50px;
   padding-top: 50px;
 }
 
-.query-container{
+.query-container {
   margin: 50px;
 }
+
+.faq {
+  display: flex;
+}
+.faq img {
+  margin-top: 15px;
+  width: 100px;
+}
+
+
+@media (max-width: 768px) {
+  .mid-navs p {
+    display: none;
+  }
+}
+
